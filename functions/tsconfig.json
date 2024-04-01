@@ -1,0 +1,13 @@
+// TypeScript Configuration
+{
+  "extends": "@tsconfig/node18/tsconfig.json", 
+  "compilerOptions": {
+    // Use ESM modules instead of CommonJS.
+    "module": "nodeNext",
+    "moduleResolution": "nodenext",
+    // Directory Settings
+    "rootDir": "src",
+    "outDir": "build"
+  },
+  "include": ["src/**/*"]
+}
